@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+	"time"
+)
 
 func main() {
 
@@ -26,12 +30,43 @@ func main() {
 		fmt.Println("point is less than 10 point = ", point)
 	}
 
+	checkOs()
+
+	whatToSaturday()
+
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("hey")
 }
 
-func whatAmI(i interface{}) { // any
+func whatToSaturday() {
+	fmt.Println("When's Saturday?")
+	today := time.Now().Weekday()
+	switch time.Saturday {
+	case today + 0:
+		fmt.Println("Today.")
+	case today + 1:
+		fmt.Println("Tomorrow.")
+	case today + 2:
+		fmt.Println("In two days.")
+	default:
+		fmt.Println("Too far away.")
+	}
+}
+
+func checkOs() {
+	if os := runtime.GOOS; os == "darwin" {
+		fmt.Println("OS X.")
+	} else if os == "linux" {
+		fmt.Println("Linux.")
+	} else {
+		// freebsd, openbsd,
+		// plan9, windows...
+		fmt.Printf("%s.\n", os)
+	}
+}
+
+func whatAmI(i any) { // any
 	switch t := i.(type) {
 	case bool:
 		fmt.Println("I'm a bool")
