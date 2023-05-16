@@ -8,7 +8,7 @@
 - Condition if
 - Blockscope
 - Formatting
--Zerovalue
+- Zerovalue
 
 ## wait
 
@@ -16,8 +16,8 @@
 - For
 - Array
 - Slice
-- Function
 
+- Function
 - Method
 - Interface
 - Pointer
