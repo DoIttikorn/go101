@@ -8,13 +8,14 @@
 - Condition if
 - Blockscope
 - Formatting
--Zerovalue
+- Zerovalue
 
 ## wait
 
 - iota
 - Switch rekap
 - For
+
 - Array
 - Slice
 - Function
