@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func main() {
+func array() {
 	// var arr string = "Hello, World! SCB connect"
 	// var arr [5]string;
 
@@ -15,8 +15,8 @@ func main() {
 
 	arr[3] = 4
 	fmt.Println(arr)
-	// for _, value := range arr {
-	// 	fmt.Println(value)
-	// }
+	for _, value := range arr {
+		fmt.Println(value)
+	}
 
 }

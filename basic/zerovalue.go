@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func main() {
+func zerovalue() {
 	var i int
 	var f float64
 	var b bool

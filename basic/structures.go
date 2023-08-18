@@ -1,4 +1,4 @@
-package main
+package basic
 
 import "fmt"
 
@@ -17,7 +17,7 @@ func (user *user) SetFirstName(firstName string) {
 	fmt.Printf("copy user: %+v\n", user)
 }
 
-func main() {
+func structures() {
 	// user1 := user{
 	// 	firstName: "Somkiat",
 	// 	LastName:  "Chawkamud",

@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func main() {
+func slice() {
 	var y [5]int
 	fmt.Printf("%#v \n", y)
 	var x []int

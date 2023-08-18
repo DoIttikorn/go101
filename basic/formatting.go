@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func main() {
+func formatting() {
 	var A rune = 'A'
 
 	// var left rune = '◀'

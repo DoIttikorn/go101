@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func main() {
+func constance() {
 	const pi float64 = 3.14
 
 	fmt.Println(pi)

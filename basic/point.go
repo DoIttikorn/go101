@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func main() {
+func point() {
 	var price int = 999
 	println(price)
 

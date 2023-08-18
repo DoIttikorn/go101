@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func main() {
+func variables() {
 	// var a int = 10
 	a := 10
 

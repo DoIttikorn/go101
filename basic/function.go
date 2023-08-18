@@ -1,4 +1,4 @@
-package main
+package basic
 
 import "fmt"
 
@@ -11,7 +11,7 @@ var minus2 = func(a, b int) int {
 	return a - b
 }
 
-func main() {
+func function() {
 	// result, _ := plus(1, 2, 3)
 
 	// println(result)
