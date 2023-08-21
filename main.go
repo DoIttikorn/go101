@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"doittikorn.com/go101/ticket"
+	"doittikorn.dev/go101/ticket"
 )
 
 func main() {
