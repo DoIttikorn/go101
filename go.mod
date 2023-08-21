@@ -1,3 +1,3 @@
-module doittikorn.com/go101
+module doittikorn.dev/go101
 
 go 1.20
